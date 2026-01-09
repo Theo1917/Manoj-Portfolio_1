@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Primary SEO -->
+  <title>Manoj Srivatsav | AI Researcher & ML Engineer</title>
+  <meta
+    name="description"
+    content="Portfolio of Manoj Srivatsav - AI Researcher and ML Engineer specializing in neural networks, deep learning, and intelligent systems. Explore innovative machine learning projects."
+  />
+  <meta name="author" content="Manoj Srivatsav" />
+  <meta name="keywords" content="AI Researcher, Machine Learning Engineer, Deep Learning, Neural Networks, Computer Vision, NLP, AI Portfolio" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Manoj Srivatsav | AI Researcher & ML Engineer" />
+  <meta
+    property="og:description"
+    content="Portfolio showcasing AI research, machine learning projects, and intelligent system design."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://manojsrivatsav.com" />
+  <meta property="og:image" content="https://manojsrivatsav.com/og-image.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Manoj Srivatsav | AI Researcher & ML Engineer" />
+  <meta name="twitter:description" content="Portfolio showcasing AI research and machine learning projects" />
+  <meta name="twitter:image" content="https://manojsrivatsav.com/og-image.jpg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:ital@0;1&display=swap\"
+    rel="stylesheet"
+  />
+  %sveltekit.head%
+</head>
+
+<body data-sveltekit-preload-data="hover">
+  <script>
+    document.body.style.overflow = "hidden";
+    document.body.classList.add("loading");
+
+    window.addEventListener("load", () => {
+      setTimeout(() => {
+        document.getElementById("loader").classList.add("hide");
+        document.body.style.overflow = "";
+        document.body.classList.remove("loading");
+      }, 1800);
+    });
+  </script>
+
+  <div id="loader">
+    <div class="loader-inner">
+      <h1 class="loader-title">
+        MANOJ <span>Srivatsav</span>
+      </h1>
+
+      <div class="loader-bar">
+        <span></span>
+      </div>
+
+      <p class="loader-text">Loading experience</p>
+    </div>
+  </div>
+
+  <div style="display: contents">%sveltekit.body%</div>
+</body>
+</html>
