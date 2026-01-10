@@ -157,8 +157,8 @@
     <div class="nav-box">
       <h4>Navigation</h4>
       <ul>
-        <li>→ Open Menu</li>
-        <li>← Close Menu</li>
+        <li>→→ Open Menu</li>
+        <li>←← Close Menu</li>
         <li>↑ ↓ Navigate</li>
         <li>Enter Select</li>
       </ul>
