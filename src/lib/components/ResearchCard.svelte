@@ -39,7 +39,7 @@
         </section>
 
         <section class="failure">
-          <h4>What Didn't Work</h4>
+          <h4>Limitations of the Project</h4>
           <p>{work.failure}</p>
         </section>
 

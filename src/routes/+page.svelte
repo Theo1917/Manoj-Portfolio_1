@@ -142,7 +142,7 @@
       <h1>Hey there! I'm Manoj.</h1>
 
       <p>
-        I'm a 21 year old who likes <a href="/blog">building</a> and exploring ideas.
+        I'm a 20 year old who likes <a href="/blog">building</a> and exploring ideas.
       </p>
 
       <p>
@@ -157,9 +157,9 @@
     <div class="nav-box">
       <h4>Navigation</h4>
       <ul>
-        <li>→→ Open Menu</li>
-        <li>←← Close Menu</li>
-        <li>↑ ↓ Navigate</li>
+        <li> → → Open Menu</li>
+        <li> ← ← Close Menu</li>
+        <li> ↑ ↓ Navigate</li>
         <li>Enter Select</li>
       </ul>
     </div>
@@ -197,7 +197,7 @@
       <div class="skill-tag">NLP</div>
       <div class="skill-tag">Data Analysis</div>
       <div class="skill-tag">Machine Learning</div>
-      <div class="skill-tag">Research</div>
+      <div class="skill-tag">Autopsy</div>
       <div class="skill-tag">Optimization</div>
     </div>
   </div>
@@ -230,9 +230,7 @@
   <h2>WORKS</h2>
 
   <p data-animate>
-     Heat Transfer Prediction using Neural Networks<br />
-     AI-based Fitness Posture Correction System<br />
-     Smart Home Intelligence & Automation
+     Some Projects I've been working on.
   </p>
 
   <a href="/works" class="works-link" data-animate>View all works →</a>
